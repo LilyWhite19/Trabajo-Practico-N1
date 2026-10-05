@@ -7,7 +7,7 @@ import Carrito from './pages/Carrito.jsx'
 import Contacto from './pages/Contacto.jsx'
 import NavBar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
-import { Container } from 'react-bootstrap'
+
 
 function App() {
     const [carrito, setCarrito] = useState([])

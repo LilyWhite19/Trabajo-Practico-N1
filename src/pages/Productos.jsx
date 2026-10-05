@@ -6,6 +6,11 @@ function Productos( { productosCarrito, funcionAgregar, textoBuscar } ) {
     const productosFiltrados = productos.filter(producto =>
             producto.nombre.toLowerCase().includes(textoBuscar.toLowerCase())
         );
+    const productosConStock = productos.filter(producto =>
+       {if (producto.stock) {
+            producto
+       }}
+    )
     return (
         <div className='bg-secondary'>
             <Container>
